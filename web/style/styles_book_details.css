@@ -1,0 +1,62 @@
+.book-image {
+    max-width: 80%;
+    height: 400px;
+}
+
+.book-details {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rating {
+    color: #ffc107;
+}
+
+.related-books img {
+    max-width: 100%;
+    height: auto;
+}
+
+.review {
+    margin-bottom: 20px;
+}
+
+.review img {
+    border-radius: 50%;
+    width: 100px; /* Ensure the image is a square */
+    height: 100px; /* Ensure the image is a square */
+    object-fit: cover; /* Ensure the image covers the entire area */
+}
+
+.star-rating {
+    direction: rtl;
+    /* Right-to-left for better visual alignment */
+    display: inline-flex;
+    font-size: 2rem;
+    /* Adjust the size of the stars */
+}
+
+.star-rating input[type="radio"] {
+    display: none;
+    /* Hide the radio buttons */
+}
+
+.star-rating label {
+    color: #ddd;
+    /* Default star color */
+    cursor: pointer;
+    padding: 0 5px;
+}
+
+.star-rating input[type="radio"]:checked~label {
+    color: #f5b301;
+    /* Color for selected stars */
+}
+
+.star-rating label:hover,
+.star-rating label:hover~label {
+    color: #f5b301;
+    /* Color for hovered stars */
+}

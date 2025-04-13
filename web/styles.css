@@ -1,0 +1,129 @@
+body {
+    background-color: #f8f9fa;
+}
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.img-fluid {
+    height: 70vh;
+    object-fit: cover;
+}
+
+.hero-section {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+.hero-section img {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #f8f9fa;
+}
+
+.btn-primary {
+    background-color: #22b09b !important;
+    border: 1px solid #22b09b !important;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #1fa38f !important;
+    border: 1px solid #1fa38f  !important;
+}
+
+.btn-custom {
+    width: 130px;
+}
+
+.btn-outline-primary {
+    border: 1px solid #22b09b !important;
+    color: #1fa38f !important;
+    font-weight: 600;
+}
+
+btn-outline-secondary {
+    border: 1px solid #000000 !important;
+    color: #000000 !important;
+    font-weight: 600; 
+}
+
+.btn-outline-primary:hover {
+    background-color: #1fa38f !important;
+    color: #fff !important;
+}
+
+.text-primary {
+    color: #1fa38f !important;
+}
+
+#navbarNav li {
+    font-weight: 600;
+    padding-right: 15px;
+}
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.scrolling-wrapper .card {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.scrolling-wrapper {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #ddd #f5f5f5;
+}
+.scrolling-wrapper .card {
+    min-width: 250px;
+    flex: none;
+    margin-right: 15px;
+}
+.scrolling-wrapper .card img {
+    max-height: 350px;
+    object-fit: cover;
+}
+.card-price {
+    font-weight: bold;
+    color: #28a745;
+}
+.list-price {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+.scrolling-wrapper .btn {
+    width: 100%;
+    border-radius: 0;
+}
+
+#cardImg {
+    width:80%; /* you can use % */
+    height: auto;
+}
+
+.cards-wrapper {
+    display: flex;
+}
+
+.cardButton {
+    width: 100%;
+}
+
+card-body {
+    padding: 1rem !important;
+}
+
+#bCard {
+    transition: transform 0.3s;
+} 
+
