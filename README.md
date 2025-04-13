@@ -50,6 +50,20 @@ This is a web-based Online Book Store application developed as a group project f
    - Complete pending orders (`completeOrder.jsp`)
    - Delete orders (`deleteOrder.jsp`)
 
+## Screenshots
+
+![Landing Page 1](Images/UI/1-landing-page-1.png)
+![Landing Page 2](Images/UI/2-landing-page-2.png)
+![Sign In Page](Images/UI/3-signin-page.png)
+![Sign Up Page](Images/UI/4-signup-page.png)
+![Customer Dashboard](Images/UI/5-customer-dashboard.png)
+![Browse Books Page 1](Images/UI/6-browse-books-page-1.png)
+![Browse Books Page 2](Images/UI/7-browse-books-page-2.png)
+![Profile Page](Images/UI/8-profile-page.png)
+![Admin Dashboard](Images/UI/9-admin-dashboard.png)
+![Manage Books Page](Images/UI/10-manage-books-page.png)
+![Book Details Page](Images/UI/11-book-details-page.png)
+
 ## Project Structure
 ```
 projectRAD/
